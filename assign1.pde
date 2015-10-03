@@ -1,4 +1,4 @@
-
+/* please implement your assign1 code in this file. */
 PImage map1;
 PImage map2;
 PImage fighter;
@@ -16,8 +16,8 @@ int by,bx;
 
 void setup(){
 size(641,482);
-map1 = loadImage("map1.png");
-map2 = loadImage("map2.png");
+map1 = loadImage("bg1.png");
+map2 = loadImage("bg2.png");
 fighter = loadImage("fighter.png");
 enemy = loadImage("enemy.png");
 hp = loadImage("hp.png");
